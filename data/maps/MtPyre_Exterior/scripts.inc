@@ -1,0 +1,29 @@
+MtPyre_Exterior_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, MtPyre_Exterior_OnTransition
+	map_script MAP_SCRIPT_ON_RESUME, EncounterTable
+	.byte 0
+
+MtPyre_Exterior_OnTransition:
+	callnative ChangeEncounterTable
+	call MtPyre_Exterior_EventScript_CheckEnterFromSummit
+	end
+
+MtPyre_Exterior_EventScript_CheckEnterFromSummit::
+	getplayerxy VAR_TEMP_0, VAR_TEMP_1
+	goto_if_lt VAR_TEMP_1, 12, MtPyre_Exterior_EventScript_EnterFromSummit
+	return
+
+MtPyre_Exterior_EventScript_EnterFromSummit::
+	setweather WEATHER_FOG_HORIZONTAL
+	return
+
+MtPyre_Exterior_EventScript_FogTrigger::
+	setweather WEATHER_FOG_HORIZONTAL
+	doweather
+	end
+
+MtPyre_Exterior_EventScript_SunTrigger::
+	resetweather @ back to the map's dynamic weather
+	doweather
+	end
+

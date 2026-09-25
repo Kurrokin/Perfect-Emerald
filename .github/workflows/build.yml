@@ -1,0 +1,29 @@
+# Builds the ROM in the cloud - no PC toolchain needed.
+#   1. Create a PRIVATE GitHub repository and upload this source tree.
+#   2. (Optional, for the .bps) also upload your clean Emerald (U) ROM as
+#      baserom.gba - keep the repository private.
+#   3. Actions tab -> "Build Perfect Emerald" -> Run workflow.
+#   4. Download the artifact: the .gba (and .bps if baserom.gba was present).
+name: Build Perfect Emerald
+
+on:
+  workflow_dispatch:
+  push:
+
+jobs:
+  build_rom:
+    name: Build ROM + BPS
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install toolchain
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential libpng-dev python3 \
+            gcc-arm-none-eabi binutils-arm-none-eabi libnewlib-arm-none-eabi
+      - name: Build ROM (+ BPS if baserom.gba is present)
+        run: ./build.sh
+      - uses: actions/upload-artifact@v4
+        with:
+          name: PerfectEmerald
+          path: out/
