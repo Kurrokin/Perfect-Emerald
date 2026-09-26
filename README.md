@@ -1,4 +1,24 @@
-# Pokémon Modern Emerald
+# Pokémon Perfect Emerald
+
+NOTICE:
+this is version 3.5 and it’s still buggy the final (5.0) will be soon uploaded with 0 bugs and many additional graphics improvement and menu toggle in options to turn set off (or change to a different setting options)
+and along side the update there will be plug and play (open source) ports for everything I did (and collected from the other projects that are important and high quality)
+for: CRFU and Pokeemerald expension 
+
+this is a rom I heavily edit and added many many features and graphics on top of:
+pokemon modern emerald
+pokeemerald extension
+Pokémon xtreme weather core idea
+with CFRU art,
+ORAS tile set,
+more custom battle background art.
+B&W start menu.
+
+ADDED FEATURES ARE:
+dynamic weather system, with high logic and rules.
+high animation for pokemon and weather during battles
+
+THE REST ARE DOCUMENT OF WHAT AND WHEN (from the moment I’ve been advised to do it)
 
 This is a decompilation of Pokémon Emerald, edited to be "Pokémon Modern Emerald".
 You can get more information about Modern Emerald at [Pokecommunity](https://www.pokecommunity.com/showthread.php?t=494005)
