@@ -1,8 +1,8 @@
 # Pokémon Perfect Emerald
 
 NOTICE:
-this is version 3.5 and it’s still buggy the final (5.0) will be soon uploaded with 0 bugs and many additional graphics improvement and menu toggle in options to turn set off (or change to a different setting options)
-and along side the update there will be plug and play (open source) ports for everything I did (and collected from the other projects that are important and high quality)
+this is version 3.5 and it’s still buggy, the final (5.0) will be soon uploaded, with 0 bugs and many additional graphics improvements, settings improvements, and everything is can be toggle through options.
+Along side the update there will be PLUG and PLAY (open source) PORTS (for everything I did and collected from the other projects that are important and high quality)
 for: CRFU and Pokeemerald expension 
 
 this is a rom I heavily edit and added many many features and graphics on top of:
@@ -16,7 +16,14 @@ B&W start menu.
 
 ADDED FEATURES ARE:
 dynamic weather system, with high logic and rules.
-high animation for pokemon and weather during battles
+high animation for pokemon and weather during battles.
+tiles additions.
+weather effect additions
+battle background logic
+update ports of the ORAS tileset
+toggles in options for everything
+
+(also made some additional stuff for the weather system so it can be used as puzzles with ice and water and ponds or way to traverse places only in certain weather if you don’t have surf)
 
 THE REST ARE DOCUMENT OF WHAT AND WHEN (from the moment I’ve been advised to do it)
 
