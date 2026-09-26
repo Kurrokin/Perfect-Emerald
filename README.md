@@ -25,13 +25,27 @@ toggles in options for everything
 
 (also made some additional stuff for the weather system so it can be used as puzzles with ice and water and ponds or way to traverse places only in certain weather if you don’t have surf)
 
-THE REST ARE DOCUMENT OF WHAT AND WHEN (from the moment I’ve been advised to do it)
+
 
 
 
 # 🪪CREDITS
 (credits are incomplete and will
 so be updated, I’m new at this and I’m still gathering into on for the credits and I’m quiet swampped)
+
+but quickly until I’ll edit and add all the repo
+
+LilDil and heart and soul crew.
+Resetes12 and pokeemerald and crew.
+leob0505 for the ORAS tile set.
+the CFRU crew.
+D3N_AR for the core idea and mechanics for the base of the weather system .
+
+
+
+
+
+
 
 * [https://github.com/pret/pokeemerald] for its base
 * Pret's Wiki Tutorials:
